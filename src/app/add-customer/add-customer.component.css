@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-content {
+  max-width: 400px; /* Ajoutez une largeur maximale pour centrer le contenu */
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+}

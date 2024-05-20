@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="center-content">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Edit Customer</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form (submit)="submitForm()" #customerForm="ngForm">
+          <div class="form-row">
+            <mat-form-field class="form-field">
+              <mat-label>Name</mat-label>
+              <input matInput [(ngModel)]="customer.name" name="name" required>
+              <mat-error *ngIf="customerForm.controls['name'].invalid && customerForm.controls['name'].touched">Name is required</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="form-row">
+            <mat-form-field class="form-field">
+              <mat-label>Email</mat-label>
+              <input matInput [(ngModel)]="customer.email" name="email" required email>
+              <mat-error *ngIf="customerForm.controls['email'].invalid && customerForm.controls['email'].touched">Please enter a valid email</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="button-container">
+            <button type="submit" mat-raised-button color="primary">Save</button>
+            <button type="button" mat-raised-button color="warn" (click)="goBack()">Cancel</button>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

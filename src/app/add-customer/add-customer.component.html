@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="center-content">
+    <h2>Ajouter un nouveau client</h2>
+    <form (submit)="addCustomer()">
+      <mat-form-field class="form-field">
+        <input matInput placeholder="Nom" [(ngModel)]="newCustomer.name" name="name" required>
+      </mat-form-field>
+      <mat-form-field class="form-field">
+        <input matInput placeholder="Email" [(ngModel)]="newCustomer.email" name="email" required>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Ajouter</button>
+    </form>
+  </div>
+</div>

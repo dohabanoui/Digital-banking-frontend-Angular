@@ -1,0 +1,11 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Cela permet de couvrir toute la hauteur de la fenêtre */
+}
+
+.login-card {
+  width: 300px; /* Ajustez la largeur selon vos besoins */
+}
