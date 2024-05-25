@@ -70,6 +70,63 @@ Note: Ensure that XAMPP is running.
 For the login interface, the user (either admin or not) needs to enter the username and password.
 ![Login Interface](images/0.png)
 
+When the admin enters their information, another interface is displayed.
+![Login Interface](images/1.png)
+When the admin clicks on "Customers", they will see a list of customers with a search function. Additionally, they can modify, delete, or view the accounts of each customer. They also have the option to add another customer.
+![Login Interface](images/2.png)
+To view customer details
+![Login Interface](images/3.png)
+If the admin wants to add a new client, they need to enter the name and email of the client.
+![Login Interface](images/4.png)
+And there, the customer is added to the list of customers.
+![Login Interface](images/5.png)
+To view the accounts registered in the backend, but not working after security implementatio
+![Login Interface](images/6.png)
+Upon taking the customer's ID and clicking on "Accounts", it will display as follows. Then, input the customer's ID and click on "Search".
+![Login Interface](images/7.png)
+When you click on "Search", it will display the customer's balance and the operations they want to perform.
+![Login Interface](images/8.png)
+If they choose to fill in, for example, with this information
+![Login Interface](images/9.png)
+Or if they choose to transfer, another field will appear to designate the destination.
+![Login Interface](images/10.png)
+This interface is for modifying customer data.
+![Login Interface](images/11.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
