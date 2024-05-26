@@ -1,5 +1,5 @@
 
-# Typical Angular Project Structure
+# Angular Project Structure
 
 - `src/`: Contains the source code of the Angular application.
   - `app/`: Contains components, services, modules, and other application-specific files.
@@ -8,7 +8,7 @@
   - `index.html`: Entry point of the application where the Angular application is loaded in the browser.
 - `angular.json`: Global configuration file for the Angular application. It specifies build, compile, and deployment settings for the application.
 - `tsconfig.json`: Contains TypeScript configuration for the application.
-- Service files: Angular services are typically defined in separate files and provide shared functionality and data processing operations.
+- `Service files`: Angular services are typically defined in separate files and provide shared functionality and data processing operations.
 
 # Models
 
